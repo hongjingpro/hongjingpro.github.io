@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>                     
+<head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -181,17 +181,14 @@
     <p class="content">·根据法律法规的规定，向执法机关提供</p>
     <p class="content">·受到黑客攻击导致会员信息泄露的</p>
     <p class="content">·为实现使用目的，其他有必要的情况及法律规定的其他情形</p>
-<!--    <p class="subTitle">（二）我们所调用的三方服务</p>-->
+    <p class="subTitle">3.传感器信息</p>
+    <p class="content">当您在使用内置拍照摄像功能、插放广告或视频内容时，为了适配你的设备状态，我们会调用设备的重力、加速度传感器信息，以识别你的设备横竖屏状态，为您切换相应状态。</p>
+    <p class="subTitle">4、读取WIFI扫描结果</p>
+    <p class="content">当您在使用应用与网络相关的功能、插放广告或视频内容时，我们会读取WIFI扫描结果判断您是否有网络或正在WIFI连接，来判断是否进行下一步操作。</p>
 
-<!--    <ul id="ulThreeSDKS"></ul>-->
+    <p class="subTitle">当您使用<span class="appName1"></span>及相关服务时，为了保障软件与服务的正常安全运行，优化服务体验，我们会收集您的硬件型号、操作系统版本号、唯一设备标识符（IMEI）、网络设备硬件地址（MAC）、IP地址、当前运行进程信息、获取加速度传感器,陀螺仪传感器,距离传感器,磁场传感器信息 、软件版本号、网络接入方式、类型、状态、网络质量数据、操作日志、服务日志信息。请您了解，这些信息是我们提供服务和保障产品正常安全运行所必须收集的必要信息，当您将切换应用将本应用切换至后台运行时，由于部分设备机型及系统原因，切换前使用本应用相关功能而产生的信息收集行为（如设备MAC地址、设备唯一标识、IP 地址、位置），可能无法立马停止，从而导致了短暂的后台信息收集行为。
 
-<!--    <p class="subTitle">（三）开展内部数据分析和研究，第三方SDK统计服务，改善我们的产品或服务</p>-->
-
-<!--    <p class="content">-->
-<!--        我们收集数据是根据您与我们的互动和您所做出的选择，包括您的隐私设置以及您使用的产品和功能。我们收集的数据可能包括SDK/API/JS代码版本、浏览器、互联网服务提供商、IP地址、平台、时间戳、应用标识符、应用程序版本、应用分发渠道、独立设备标识符、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC）地址、国际移动设备识别码（IMEI）、设备型号、终端制造厂商、终端设备操作系统版本、会话启动/停止时间、语言所在地、时区和网络状态（WiFi等）、硬盘、CPU和电池使用情况等。</p>-->
-
-<!--    <p class="content">当我们要将信息用于本策略未载明的其它用途时，会事先征求您的同意。</p>-->
-<!--    <p class="content">当我们要将基于特定目的收集而来的信息用于其他目的时，会事先征求您的同意。</p>-->
+    </p>
 
     <p class="subTitle">三、我们如何共享、转让、公开披露您的个人信息</p>
     <p class="subTitle">（一）共享</p>
@@ -381,7 +378,7 @@
             var CompanyNameA = "深圳市弘境科技有限公司";
             var appNameA = "奥秘库";
             var emailA = "hongjingpro@163.com";
-            
+
             function setAppName(msg) {
                appNameA = msg;
             }
@@ -389,7 +386,7 @@
                emailA = msg;
             }
 			window.onload = function() {
-			
+
 				var CompanyName = document.getElementsByClassName("CompanyName");
 				for (var i = 0; i < CompanyName.length; i++) {
 					CompanyName[i].innerHTML = CompanyNameA;
