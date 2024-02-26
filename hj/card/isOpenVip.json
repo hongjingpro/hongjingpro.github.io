@@ -3,5 +3,5 @@
   "xiaomi": false,
   "vivo": false,
   "oppo": false,
-  "other": false
+  "other": true
 }
