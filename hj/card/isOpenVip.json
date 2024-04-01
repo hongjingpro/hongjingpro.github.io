@@ -1,6 +1,6 @@
 {
   "huawei": true,
-  "xiaomi": true,
+  "xiaomi": false,
   "vivo": true,
   "oppo": true,
   "other": true
